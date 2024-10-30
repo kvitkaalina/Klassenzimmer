@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.container{
+    background-color:rgba(4, 140, 59, 1);
+    color: white;
+    /* height: 100vh; */
+    padding-bottom: 10px;
+
+        
+}
+
+.parent {
+    display: flex;
+    justify-content: flex-end;
+
+}
+.child {
+    background-color: #006600;
+    border-radius: 8px  0 8px 8px;
+    max-width: 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    /* по горизонтали */
+    justify-content: center;
+     /* по вертикали */
+    /* align-items: center; */
+   
+}
+
+.login {
+    width: 200px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.child label{
+    margin-bottom: 17px ;
+}
+ 
+
+.child select {
+    width: 200px;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+}
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn button {
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 6px;
+    width: 90px;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 25px auto;
+    max-width: 1051px;
+    
+}
+ .content h3 {
+    font-size: 32px;
+    line-height: 38px;
+ }
+
+
+ .par_btn {
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 16px;
+ }
+
+ .save {
+    display: flex;
+    justify-content: flex-end;
+
+ }
+
+ .save button {
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+    width: 90px;
+ }
+
+
+
+

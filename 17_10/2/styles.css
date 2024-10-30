@@ -1,0 +1,11 @@
+.content {
+    padding: 10px;
+    border-radius: 8px;
+    background: rebeccapurple;
+}
+
+.text {
+   background-color: brown;
+   color: aliceblue;
+   font-size: 100px;
+}
